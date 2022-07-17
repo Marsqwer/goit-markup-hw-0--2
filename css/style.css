@@ -38,6 +38,9 @@ font-weight: 500;
 .header-link:focus{
 color: #2196F3;
 }
+.header-color {
+color: #2196F3;
+}
 
 
 
@@ -214,3 +217,7 @@ font-family: 'Roboto';
 
     color: #FFFFFF;
 }
+    
+    .footer-link:hover,
+    .footer-link:focus {color: #2196F3;}
+            
