@@ -194,30 +194,42 @@ font-family: 'Roboto';
 
 .footer {}
 
-.header-logo {text-decoration: none;}
+.header-logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+
+.heder-img {}
 
 .footer-page {}
 
-.footer-list {list-style: none;
-    background-color: #757575;
+.footer-list {
+    list-style: none
+    
 }
 
-.footer-item {}
+.footer-item {
+    background-color: #757575;
+  
+}
 
 .footer-link {
     text-decoration: none;
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #FFFFFF;
-}
     
-    .footer-link:hover,
-    .footer-link:focus {color: #2196F3;}
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            /* or 171% */
+    
+            letter-spacing: 0.03em;
+    
+            color: #FFFFFF;
+ }
             
