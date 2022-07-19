@@ -54,6 +54,13 @@ font-weight: 500;
 
     color: #2196F3;
 }
+
+
+.header-mal:hover,
+.header-mal:focus {
+    background-color: #2196F3;
+    color: white;
+}
  
 .header-tel {
     text-decoration: none;
@@ -64,6 +71,11 @@ font-weight: 500;
     letter-spacing: 0.02em;
 
     color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus {
+    background-color: #2196F3;
+    color: white;
 }
 
 .header-item {
@@ -192,9 +204,11 @@ font-family: 'Roboto';
         color: #757575;
 }
 
-.footer {}
+.footer {
+    background-color: #757575;
+}
 
-.header-logo {
+.footer-logo {
     text-decoration: none;
     font-family: 'Raleway';
         font-weight: 700;
@@ -204,7 +218,9 @@ font-family: 'Roboto';
         color: #2196F3;
 }
 
-.heder-img {}
+.footer-img {
+    color: white;
+}
 
 .footer-page {}
 
@@ -233,3 +249,7 @@ font-family: 'Roboto';
             color: #FFFFFF;
  }
             
+.footer-link:hover,
+.footer-link:focus {
+    color: #2196F3;
+}
