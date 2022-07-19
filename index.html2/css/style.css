@@ -2,6 +2,9 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .header-logo {
+   
+    
+    text-decoration: none;
     font-family: 'Raleway';
 font-weight: 700;
     font-size: 26px;
@@ -12,20 +15,39 @@ font-weight: 700;
 .heder-img{
     color: black;
 }
-.header {
+header {
 background-color: #FFFFFF;
 }
 
-
-.header-list {list-style: none;
+.header-contact {
+    list-style: none;
 
 }
 
+
+
+
+.header-list {
+    display: flex;
+
+    list-style: none;
+
+}
+
+.header-link :last-child {
+    margin-right: 0;
+}
+
 .header-link {
+    display: block;
+    padding-top: 37;
+    padding-bottom: 27;
+    margin-right: 50px;
+
     text-decoration: none;
     
     font-family: 'Roboto';
-font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
