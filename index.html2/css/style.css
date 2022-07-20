@@ -21,10 +21,16 @@ background-color: #FFFFFF;
 
 .header-contact {
     list-style: none;
+    display: flex;
 
 }
 
-
+.header-link-menu {
+    display: block;
+        padding-top: 37;
+        padding-bottom: 27;
+        margin-right: 50px;
+}
 
 
 .header-list {
