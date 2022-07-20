@@ -135,13 +135,13 @@ body {
     
         color: #757575;
 }
-.footeri { 
+.footer { 
     background-color: #757575;
 }
 
 
 
-.footeri-logo{
+.footer-logo{
     text-decoration: none;
         font-family: 'Raleway';
         font-weight: 700;
@@ -151,23 +151,23 @@ body {
         color: #2196F3;
 }
 
-.footeri-img {
+.footer-img {
     color: #FFFFFF;
 }
-.footeri-page {}
+.footer-page {}
 
-.footeri-itema {
+.footer-itema {
     color: #757575;
 }
 
-.footeri-list {
+.footer-list {
     
     list-style: none
 }
 
 
 
-.footeri-link {
+.footer-link {
     text-decoration: none;
 
     font-family: 'Roboto';
@@ -181,7 +181,7 @@ body {
 
     color: #FFFFFF;
 }
-.footeri-link:hover,
-.footeri-link:focus {
+.footer-link:hover,
+.footer-link:focus {
     color: #2196F3;
 }
